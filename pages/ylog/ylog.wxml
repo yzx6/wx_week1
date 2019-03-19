@@ -1,0 +1,9 @@
+<!--pages/ylog/ylog.wxml-->
+<view>
+  <text>
+  {{logs.date}}
+  {{logs.state}}
+</text>
+ <button bindtap="change">修改</button>
+</view>
+

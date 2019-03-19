@@ -1,0 +1,25 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <view class="head">
+    <view>
+      <view>姓名</view>
+      <text>居民身份证**********</text>
+    </view>
+    <button>修改身份</button>
+  </view>
+    <view class="date">
+        <view>预约日期</view>
+        <view  wx:for="{{logs}}" wx:key="{{index}}" class="{{index==ind ? 'dates bg' : ''}}" bindtap='check'  data-id="{{index}}"> 
+          <view>{{item.date}}</view>
+          <view>{{item.state}}</view>
+        </view>
+    </view>
+    <view class="initTime">
+      入校时间
+       <view class="dates" wx:for="{{newlogs}}" wx:key="{{index}}"> 
+          <view>{{item.date}}</view>
+          <view>{{item.state}}</view>
+        </view>
+    </view>
+    <view><button bindtap='ylog'>预约</button></view> 
+</view>

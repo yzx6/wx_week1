@@ -1,0 +1,9 @@
+<!--pages/change/change.wxml-->
+<view>
+  <text>
+  {{logs.date}}
+  {{logs.state}}
+</text>
+<button style="width:80%;margin 0 auto;color:#fff;background:red" bindtap="del">取消预订</button>
+</view>
+

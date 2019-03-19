@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="banner">
+    <image src="../../imgs/banner.png" mode="widthFix"></image>
+  </view>
+  <view class="main">
+    <view>校园参观</view>
+    <view bindtap='make'>预约管理;个人预约</view>
+    <view>预约管理;我的预约</view>
+  </view>
+  <view class="main">
+    <view>发现精彩</view>
+    <view>游览服务;个人预约</view>
+    <view>预约管理;我的预约</view>
+  </view>
+</view>
